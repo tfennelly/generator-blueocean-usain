@@ -1,6 +1,6 @@
 {
   "name": "generator-blueocean-usain",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Jenkins Blue Ocean Simple Plugin/HPI Generator - Usain Run Details",
   "files": [
     "app"
