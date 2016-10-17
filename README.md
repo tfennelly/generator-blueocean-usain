@@ -139,4 +139,4 @@ customize the plugin build a little. To do this, simply add a `gulpfile.js` in t
 [SASS]: http://sass-lang.com/
 [NPM scripts]: https://docs.npmjs.com/misc/scripts
 [@jenkins-cd/js-builder]: https://www.npmjs.com/package/@jenkins-cd/js-builder
-[Usain.jsx]: ./app/templates/src/main/js/Usain.jsx
+[Usain.jsx]: https://github.com/tfennelly/generator-blueocean-usain/blob/master/app/templates/src/main/js/Usain.jsx
