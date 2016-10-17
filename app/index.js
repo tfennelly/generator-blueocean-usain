@@ -1,8 +1,8 @@
 const generators = require('yeoman-generator');
 const yosay = require('yosay');
 var fs = require('fs');
-const updateCenter = require('./../js/updateCenter');
-const github = require('./../js/github');
+const updateCenter = require('./js/updateCenter');
+const github = require('./js/github');
 
 const DEFAULT_VERSION = '1.0.0-b09-SNAPSHOT';
 
