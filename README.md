@@ -79,7 +79,7 @@ extensions:
     extensionPoint: jenkins.pipeline.run.result
 ```
 
-> __NOTE__: We may add support other form formats (other than `.yaml`) in the future. We could also look at discovery mechanisms ala the `@Extension` annotation.
+> __NOTE__: We may add support for other formats (other than `.yaml`) in the future. We could also look at discovery mechanisms ala the `@Extension` annotation.
 
 ## How to Add Style, images etc for your Plugin Extension Point using LESS
 
