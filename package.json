@@ -1,0 +1,23 @@
+{
+  "name": "generator-blueocean-usain",
+  "version": "0.0.1",
+  "description": "Jenkins Blue Ocean Simple Plugin/HPI Generator - Usain Run Details",
+  "files": [
+    "app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Fennelly <tom.fennelly@gmail.com> (https://github.com/tfennelly)",
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator",
+    "jenkins",
+    "blueocean"
+  ],
+  "dependencies": {
+    "request": "^2.75.0",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.1"
+  }
+}
