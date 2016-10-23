@@ -116,6 +116,7 @@ As is typical with [NPM scripts], they are run by executing `npm run <script-nam
 | `bundle` | Build JavaScript artifacts and add them to your HPI, but do not run tests or linting. |
 | `test` | Run tests only (`src/test/js/**/*-spec.js`). |
 | `lint` | Run linting only. |
+| `lint:fix` | Run linting and fix fixable lint errors. |
 | `bundle:watch` | Run `bundle` continuously, rerunning on source changes. |
 
 > Yes, a few [`@jenkins-cd/js-builder`](https://www.npmjs.com/package/@jenkins-cd/js-builder#predefined-gulp-tasks) options are missing from the above list that we will be adding support for e.g. `test:watch` and `--fixLint`.
