@@ -119,8 +119,6 @@ As is typical with [NPM scripts], they are run by executing `npm run <script-nam
 | `lint:fix` | Run linting and fix fixable lint errors. |
 | `bundle:watch` | Run `bundle` continuously, rerunning on source changes. |
 
-> Yes, a few [`@jenkins-cd/js-builder`](https://www.npmjs.com/package/@jenkins-cd/js-builder#predefined-gulp-tasks) options are missing from the above list that we will be adding support for e.g. `test:watch` and `--fixLint`.
-
 The `package.json` in the generated plugin also contains the `mvnbuild` and `mvntest` scripts that get executed as part of the maven build.
 
 # More Advanced Builds
