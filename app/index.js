@@ -4,7 +4,7 @@ var fs = require('fs');
 const updateCenter = require('./js/updateCenter');
 const github = require('./js/github');
 
-const DEFAULT_VERSION = '1.0.0-b09-SNAPSHOT';
+const DEFAULT_VERSION = '1.9.0';
 
 const pluginDetails = {};
 
@@ -41,17 +41,6 @@ module.exports = generators.Base.extend({
 
     prompting: function () {
         var self = this;
-
-        // TODO: remove the following once 1.0.0-b09 is released
-        if (pluginDetails.blueOceanVersion === '1.0.0-b08') {
-            self.log("    ------------------------------");
-            self.log("    Version 1.0.0-b08 doesn't work with this generator.");
-            self.log("    Setting version to 1.0.0-b09-SNAPSHOT.");
-            self.log("    Be sure to have a local build of 1.0.0-b09-SNAPSHOT.");
-            self.log("    This will go away once 1.0.0-b09 is released.");
-            self.log("    ------------------------------");
-            pluginDetails.blueOceanVersion = DEFAULT_VERSION;
-        }
 
         this.log('\nPlease enter the maven artifact info for the new plugin:');
 
